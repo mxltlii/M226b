@@ -1,3 +1,3 @@
 public class Visitor {
-    float balance;
+    float balance = 120.00f;
 }

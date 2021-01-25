@@ -17,6 +17,7 @@ public class Zoo {
             }
             choice = scanner.nextInt();
             System.out.println(cages.get(choice - 1).WatchDinos());
+            System.out.println(cages.get(choice - 1).WatchKeeper());
         }
     }
 }
