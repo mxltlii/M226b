@@ -1,4 +1,4 @@
-public class Keeper  implements IDoJob{
+public class Keeper implements IDoJob {
     protected String name;
     protected String role;
 
