@@ -1,3 +1,3 @@
 public class Visitor {
-    float balance = 120.00f;
+    private float balance = 120.00f;
 }

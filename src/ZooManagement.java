@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class ZooManagement {
     public static ArrayList<Cage> LoadDinos() {
         try {
-            Scanner sc = new Scanner(new File("C:\\Users\\Liam\\Desktop\\Dinodata.txt"));
+            Scanner sc = new Scanner(new File(".\\Data\\Dinodata.txt"));
             sc.useDelimiter(",");
 
             ArrayList<String> arrList = new ArrayList<>();
