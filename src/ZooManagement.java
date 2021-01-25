@@ -57,7 +57,7 @@ public class ZooManagement {
             ArrayList<Cage> cageList = new ArrayList<>();
             ArrayList<Keeper> keeperList  = new ArrayList<>();
             keeperList.add(new Feeder("Peter Geizer", "Fütterer"));
-            keeperList.add(new DinoDoctor("", "Fütterer"));
+            keeperList.add(new DinoDoctor("Konstantin Dzemaili", "Fütterer"));
             keeperList.add(new Overseer("Bledon Asani", "Fütterer"));
 
 

@@ -16,8 +16,6 @@ public class Cage {
     public String WatchDinos() {
         Random r = new Random();
         int dostuff = r.nextInt(dinoList.size());
-        System.out.println("Listsize" + dinoList.size());
-
         return dinoList.get(dostuff).DoStuff();
     }
 
@@ -28,5 +26,17 @@ public class Cage {
     public String GetSpecies() {
         return this.containedSpecies;
     }
+    public String BeFed() {
+        Random r = new Random();
+        int tasty = r.nextInt(2);
 
+        if (tasty == 1) {
+            return "Der " + this.GetSpecies() + " scheint das Essen zu mögen";
+        } else {
+            return "Der " + this.GetSpecies() + " mag das Essen nicht und läuft davon";
+        }
+    }
+    public ArrayList<Dinosaur> GetDinoList() {
+        return dinoList;
+    }
 }

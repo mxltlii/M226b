@@ -27,6 +27,7 @@ public class Dinosaur {
             case 2:
                 return "Der " + this.species + " scheint gerade zu schlafen.";
         }
+
         return null;
     }
 }
