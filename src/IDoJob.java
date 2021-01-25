@@ -1,3 +1,3 @@
 public interface IDoJob {
-    String DoJob();
+    String DoJob(String dinospecies);
 }

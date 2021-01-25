@@ -1,7 +1,9 @@
-public class Keeper extends KeeperSuperior implements IDoJob{
+public class Keeper {
+    protected String name;
+    protected String role;
 
-    public String DoJob() {
-
-        return null;
+    public Keeper(String name, String role) {
+        this.name = name;
+        this.role = role;
     }
 }
