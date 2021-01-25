@@ -7,13 +7,13 @@ public class Cage {
     private final Keeper keeper;
 
 
-    public Cage(ArrayList<Dinosaur> dinoList, Keeper keeper){
+    public Cage(ArrayList<Dinosaur> dinoList, Keeper keeper) {
         this.dinoList = dinoList;
         this.containedSpecies = dinoList.get(0).species;
         this.keeper = keeper;
     }
 
-    public String WatchDinos(){
+    public String WatchDinos() {
         Random r = new Random();
         int dostuff = r.nextInt(dinoList.size());
         System.out.println("Listsize" + dinoList.size());
@@ -21,10 +21,11 @@ public class Cage {
         return dinoList.get(dostuff).DoStuff();
     }
 
-    public String WatchKeeper(){
+    public String WatchKeeper() {
         return this.keeper.DoJob(this.containedSpecies);
     }
-    public String GetSpecies(){
+
+    public String GetSpecies() {
         return this.containedSpecies;
     }
 }
