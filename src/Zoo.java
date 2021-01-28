@@ -36,14 +36,25 @@ public class Zoo {
                             System.out.println(cages.get(choice - 1).WatchDinos());
                             break;
                         case 2:
-                            System.out.println(cages.get(choice - 1).BeFed());
+                            if (balance >= 10) {
+                                balance = balance - 10.00f;
+                                System.out.println(cages.get(choice - 1).BeFed());
+                                System.out.println("Noch verfügbares Geld: " + balance + "$.");
+                            } else {
+                                System.out.println("Sie haben nicht genügend Geld.\nIhr verfügbares Guthaben ist: " + balance + "$.");
+                            }
                             break;
                         case 3:
                             System.out.println(cages.get(choice - 1).WatchKeeper());
                             break;
+                        case 5:
+                            System.out.println("Vielen herzlichen Dank für Ihren Aufenthalt. Wir hoffen Sie wieder zu sehen.");
+                            System.exit(0);
                     }
                 }
             }
+        } else {
+            System.out.println("Haben Sie noch einen schönen Tag!");
         }
     }
 }
