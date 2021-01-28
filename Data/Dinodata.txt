@@ -1,0 +1,1 @@
+Triceratops,15,false,T-Rex,2,true,Velociraptor,12,true,Dilophosaurus,4,true,Brontosaurus,54,false,Triceratops,5,false,Triceratops,22,false,T-Rex,67,true,T-Rex,67,true,Velociraptor,13,true,Velociraptor,10,true,
