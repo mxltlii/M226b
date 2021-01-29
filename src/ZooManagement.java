@@ -7,6 +7,10 @@ import java.util.Scanner;
 
 // Im ZooManagement werden administrative Dinge getan wie z.B. die Dinos laden und in ihre Gehege einsperren.
 public class ZooManagement {
+    /**
+     *
+     * @return
+     */
     public static ArrayList<Cage> LoadDinos() {
         try {
             Scanner sc = new Scanner(new File(".\\Data\\Dinodata.txt"));

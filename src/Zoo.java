@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Zoo {
     Visitor you = new Visitor();
 
+    /**
+     *
+     * @param cages
+     */
     public void Start(ArrayList<Cage> cages) {
         Scanner scanner = new Scanner(System.in);
         Visitor visitor = new Visitor();

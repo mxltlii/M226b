@@ -5,12 +5,22 @@ public class Dinosaur {
     protected int age;
     protected boolean eatsMeat;
 
+    /**
+     *
+     * @param species
+     * @param age
+     * @param eatsMeat
+     */
     protected Dinosaur(String species, int age, boolean eatsMeat) {
         this.species = species;
         this.age = age;
         this.eatsMeat = eatsMeat;
     }
 
+    /**
+     *
+     * @return
+     */
     public String DoStuff() {
         Random r = new Random();
         int dostuff = r.nextInt(1 + 2);
